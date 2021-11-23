@@ -15,13 +15,10 @@
 
 ## Installatie
 
-1. Installeer de laatste LTS-versie van [Nodejs](https://nodejs.org/en/)
+1. Installeer de LTS-versie van [Nodejs](https://nodejs.org/en/)
 2. Open Git Bash op een willekeurige plaats en installer een lokale webserver via `npm install -g live-server`
 
 ## Gebruik
-1. Plaats al je bestanden (html, css, afbeeldingen, ...) in de map **src** 
-2. Start de lokale webserver vanuit de terminal van PhpStorm via:
-   - `npm run watch` of
-   - `live-server --port=5555 --open=src`
-3. Stop de webserver met `Ctrl` + `c`
-4. Push je bestanden regelmatig naar GitHub (***add/commit/push***)
+1. Start de lokale webserver vanuit de terminal van PhpStorm via het commando `live-server`
+2. Stop de webserver met `Ctrl` + `c`
+3. Push je bestanden regelmatig naar GitHub (***add/commit/push***)
